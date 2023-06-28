@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:24:"./assets/less/style.less";s:8:"compiled";s:117886:"@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap");
+a:4:{s:4:"root";s:24:"./assets/less/style.less";s:8:"compiled";s:121889:"@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap");
 @charset "UTF-8";
 @-ms-viewport {
   width: device-width;
@@ -1712,7 +1712,7 @@ a:hover {
   width: 16px;
   height: 16px;
 }
-.sec2 .container .params-bar .toggle label input:checked + .slider:before {
+.sec2 .container .params-bar .toggle label input:checked+.slider:before {
   transform: translateX(16px);
 }
 .sec2 .container .params-bar .filters span {
@@ -2788,10 +2788,10 @@ a:hover {
   background-color: #eee;
   border-radius: 50%;
 }
-.sec11 .container .form .container_label:hover input ~ .checkmark {
+.sec11 .container .form .container_label:hover input~.checkmark {
   background-color: #ccc;
 }
-.sec11 .container .form .container_label input:checked ~ .checkmark {
+.sec11 .container .form .container_label input:checked~.checkmark {
   background-color: #2196F3;
 }
 .sec11 .container .form .checkmark:after {
@@ -2799,7 +2799,7 @@ a:hover {
   position: absolute;
   display: none;
 }
-.sec11 .container .form .container_label input:checked ~ .checkmark:after {
+.sec11 .container .form .container_label input:checked~.checkmark:after {
   display: block;
 }
 .sec11 .container .form .container_label .checkmark:after {
@@ -3501,6 +3501,173 @@ a:hover {
   line-height: 20px;
   color: #071027;
 }
+.sec18 {
+  padding-top: 50px;
+  background: #F4F4F8;
+  padding-bottom: 100px;
+}
+.sec18 .container {
+  display: flex;
+  gap: 30px;
+}
+.sec18 .container .item-nav {
+  width: 100%;
+  max-width: 190px;
+}
+.sec18 .container .item-nav ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+.sec18 .container .item-nav ul li a svg {
+  margin-right: 10px;
+}
+.sec18 .container .item-nav ul li:hover a,
+.sec18 .container .item-nav ul li.active a {
+  opacity: 1;
+}
+.sec18 .container .item-nav ul li:hover a svg path,
+.sec18 .container .item-nav ul li.active a svg path {
+  transition: .3s;
+  stroke: #0070C0;
+}
+.sec18 .container .item-nav ul li:hover a span,
+.sec18 .container .item-nav ul li.active a span {
+  transition: .3s;
+  color: #0070C0;
+}
+.sec18 .container .item {
+  width: 100%;
+}
+.sec18 .container .item .slidersr {
+  display: none;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec18 .container .item .slidersr a {
+  font-family: 'Golos Text VF', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #071027;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: .3s;
+}
+.sec18 .container .item .slidersr a:first-child {
+  transform: rotate(180deg);
+}
+.sec18 .container .item .slidersr a.active,
+.sec18 .container .item .slidersr a:hover {
+  background: #53B5F5;
+  border: 2px solid #53B5F5;
+  cursor: pointer;
+  color: #fff;
+}
+.sec18 .container .item table {
+  width: 100%;
+  background: var(--white-default,#FFF);
+}
+.sec18 .container .item table caption {
+  color: var(--black-default,#071027);
+  font-size: 20px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  border-bottom: 1px solid var(--black-line,#E1E1E1);
+  background: var(--white-default,#FFF);
+  padding: 20px;
+}
+.sec18 .container .item table tr {
+  border-bottom: 1px solid var(--black-line,#E1E1E1);
+  background: var(--white-default,#FFF);
+}
+.sec18 .container .item table tr th {
+  color: var(--black-30,rgba(0,0,0,0.3));
+  font-size: 12px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: left;
+  padding: 20px;
+  position: relative;
+}
+.sec18 .container .item table tr th:after {
+  content: url('../img/table-sort.svg');
+  position: absolute;
+}
+.sec18 .container .item table tr td {
+  padding: 20px;
+  color: var(--black-default,#071027);
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+  text-align: left;
+}
+.sec18 .container .item-doc {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  background: var(--white-default,#FFF);
+  padding: 20px;
+  height: max-content;
+}
+.sec18 .container .item-doc a {
+  color: #FFF;
+  font-size: 14px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 5px;
+  background: var(--green-default,#17A851);
+  padding: 8px 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sec18 .container .item-doc .doc-descr .doc-name {
+  color: var(--black-default,#071027);
+  font-size: 20px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+.sec18 .container .item-doc .doc-descr .doc-stat p {
+  color: rgba(0,0,0,0.5);
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+  font-weight: 600;
+}
+.sec18 .container .item-doc .doc-descr .doc-stat p span {
+  color: #071027;
+}
+.sec18 .container .item-doc .doc-descr .doc-stat:not(:last-of-type) {
+  border-bottom: 1px solid #E1E1E1;
+  padding-bottom: 15px;
+}
+.sec18 .container .item-doc .doc-descr .doc-stat:not(:first-of-type) {
+  padding-top: 15px;
+}
+.sec18 .container .item-doc .photo {
+  max-height: 260px;
+  margin: 15px 0;
+}
+.sec18 .container .item-doc .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
 #modal-2 {
   max-width: 375px;
 }
@@ -3587,10 +3754,10 @@ a:hover {
   background-color: transparent;
   transition: 0.3s;
 }
-#modal-2 .md-content form .labels label .container-check:hover input ~ .checkmark {
+#modal-2 .md-content form .labels label .container-check:hover input~.checkmark {
   border: 2px solid #ccc;
 }
-#modal-2 .md-content form .labels label .container-check input:checked ~ .checkmark {
+#modal-2 .md-content form .labels label .container-check input:checked~.checkmark {
   background: #0070c0;
   border: 2px solid #0070c0;
 }
@@ -3599,7 +3766,7 @@ a:hover {
   position: absolute;
   display: none;
 }
-#modal-2 .md-content form .labels label .container-check input:checked ~ .checkmark:after {
+#modal-2 .md-content form .labels label .container-check input:checked~.checkmark:after {
   display: flex;
 }
 #modal-2 .md-content form .labels label .container-check .checkmark:after {
@@ -5461,4 +5628,4 @@ a:hover {
     max-width: 220px;
   }
 }
-";s:5:"files";a:6:{s:81:"D:\ProgramsForWork\OpenServer\domains\localhost\dermaclub1\assets\less\style.less";i:1683356928;s:85:"D:\ProgramsForWork\OpenServer\domains\localhost\dermaclub1\assets\less\normalize.less";i:1648324321;s:81:"D:\ProgramsForWork\OpenServer\domains\localhost\dermaclub1\assets\less\modal.less";i:1635662832;s:83:"D:\ProgramsForWork\OpenServer\domains\localhost\dermaclub1\assets\less\flexbox.less";i:1635662832;s:85:"D:\ProgramsForWork\OpenServer\domains\localhost\dermaclub1\assets\less\helpclass.less";i:1683316460;s:84:"D:\ProgramsForWork\OpenServer\domains\localhost\dermaclub1\assets\less\adaptive.less";i:1683356747;}s:7:"updated";i:1683356930;}
+";s:5:"files";a:6:{s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\style.less";i:1687954441;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\normalize.less";i:1648324321;s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\modal.less";i:1635662832;s:68:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\flexbox.less";i:1635662832;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\helpclass.less";i:1683316460;s:69:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\adaptive.less";i:1683356747;}s:7:"updated";i:1687954444;}
