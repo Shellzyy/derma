@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:24:"./assets/less/style.less";s:8:"compiled";s:133281:"@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap");
+a:4:{s:4:"root";s:24:"./assets/less/style.less";s:8:"compiled";s:133493:"@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap");
 @charset "UTF-8";
 @-ms-viewport {
   width: device-width;
@@ -4982,6 +4982,13 @@ a:hover {
   }
 }
 @media (max-width: 767px) {
+  .sec18 .container .item-doc .top-content .doc-name {
+    color: var(--black-default,#071027);
+    font-size: 16px;
+    font-family: 'Golos Text VF', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+  }
   .sec17 .container .items a {
     border-radius: 12px;
   }
@@ -5913,4 +5920,4 @@ a:hover {
     max-width: 220px;
   }
 }
-";s:5:"files";a:6:{s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\style.less";i:1687977745;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\normalize.less";i:1648324321;s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\modal.less";i:1635662832;s:68:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\flexbox.less";i:1635662832;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\helpclass.less";i:1683316460;s:69:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\adaptive.less";i:1687978329;}s:7:"updated";i:1687978330;}
+";s:5:"files";a:6:{s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\style.less";i:1687977745;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\normalize.less";i:1648324321;s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\modal.less";i:1635662832;s:68:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\flexbox.less";i:1635662832;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\helpclass.less";i:1683316460;s:69:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\adaptive.less";i:1687978436;}s:7:"updated";i:1687978437;}
