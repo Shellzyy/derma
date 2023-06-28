@@ -61,117 +61,294 @@
             </ul>
         </div>
         <div class="item">
-            <table cellpadding="20">
-                <caption>Навчання</caption>
-                <col style="width:60%">
-                <col style="width:20%">
-                <col style="width:20%">
-                <tr>
-                    <th>курс</th>
-                    <th>тривалість</th>
-                    <th>бали</th>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-                <tr>
-                    <td>Сонцезахисна гама Капіталь Солей від бренду Віши</td>
-                    <td>1 год. 30 хв.</td>
-                    <td>650</td>
-                </tr>
-            </table>
+            <div class="table">
+                <div class="table-name">Навчання</div>
+                <div class="table-line table-th">
+                    <span>курс</span>
+                    <span>тривалість</span>
+                    <span>бали</span>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+                <div class="table-line">
+                    <div class="line-item">
+                        <p class="line-title">Курс</p>
+                        <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Тривалість</p>
+                        <p>1 год. 30 хв.</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Бали</p>
+                        <p>650</p>
+                    </div>
+                </div>
+            </div>
             <div class="slidersr">
                 <a href="#"><img src="./assets/img/narrow.svg" alt=""></a>
                 <a href="#" class="active">1</a>
@@ -184,13 +361,15 @@
         </div>
         <div class="item-doc">
             <a href="#">Отримати подарунок</a>
-            <div class="photo">
-                <img src="./assets/img/photo-doc.jpg" alt="">
+            <div class="top-content">
+                <div class="photo">
+                    <img src="./assets/img/photo-doc.jpg" alt="">
+                </div>
+                <span class="doc-name">Dmytro Onofrienko</span>
             </div>
             <div class="doc-descr">
-                <span class="doc-name">Dmytro Onofrienko</span>
                 <div class="doc-stat">
-                    <p>Загальна кількість балів: <span>2000</span></p>
+                    <p>Загальна к-сть балів: <span>2000</span></p>
                     <p>Доступні бали: <span>1180</span></p>
                     <p>Витрачені бали: <span>820</span></p>
                 </div>
