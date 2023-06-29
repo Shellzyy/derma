@@ -3903,6 +3903,665 @@ a:hover {
 .sec19 .container form .step .logo {
   margin-bottom: 30px;
 }
+.signup-wrap .menu {
+  display: none;
+}
+.sec20 {
+  background-image: url(../img/sign-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  height: 100vh;
+  min-height: 925px;
+  padding-bottom: 30px;
+}
+.sec20 .container .partners {
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.sec20 .container .partners img {
+  margin: 0;
+}
+.sec20 .container .step-fifth {
+  padding: 30px 40px;
+}
+.sec20 .container .step-fifth span {
+  margin: 20px 0 10px;
+  color: var(--black-default,#071027);
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 700;
+  line-height: 30px;
+}
+.sec20 .container .step-fifth p {
+  color: var(--black-default,#071027);
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+}
+.sec20 .container form {
+  border-radius: 10px;
+  background: #FFF;
+  max-width: 410px;
+  margin: 30px auto 0;
+  padding: 20px 0;
+}
+.sec20 .container form .step {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.sec20 .container form .step.active {
+  display: flex;
+}
+.sec20 .container form .step span {
+  margin-top: 10px;
+  color: var(--black-default,#071027);
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 24px;
+}
+.sec20 .container form .step .error {
+  color: var(--red-2,#D02121);
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 20px;
+  padding: 10px 40px;
+  border-top: 1px solid #FBE9E9;
+  border-bottom: 1px solid #FBE9E9;
+  background: rgba(208,33,33,0.05);
+  margin-top: 20px;
+}
+.sec20 .container form .step .top-content {
+  border-bottom: 1px solid #E1E1E1;
+  padding-bottom: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.sec20 .container form .step .content {
+  padding: 30px 40px;
+  width: 100%;
+}
+.sec20 .container form .step .content .custom-select .select-selected {
+  border-color: #E1E1E1;
+}
+.sec20 .container form .step .content .selected-item {
+  margin-bottom: 20px;
+}
+.sec20 .container form .step .content .selected-item span {
+  color: var(--black-50,rgba(0,0,0,0.5));
+  font-size: 12px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.sec20 .container form .step .content p {
+  color: rgba(0,0,0,0.5) !important;
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+  display: inline-block;
+}
+.sec20 .container form .step .content p:not(:last-child) {
+  margin-bottom: 13px;
+}
+.sec20 .container form .step .content p span {
+  color: #071027;
+  margin-top: 0;
+}
+.sec20 .container form .step .content:not(:last-child) {
+  padding-bottom: 30px;
+  border: 1px solid #E1E1E1;
+}
+.sec20 .container form .step .content .choose-item .delete-photo {
+  display: none;
+}
+.sec20 .container form .step .content .choose-item .delete-photo.active {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: var(--red-default,#DC3838);
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+}
+.sec20 .container form .step .content .choose-item .choose-photo {
+  margin: 0 auto;
+  width: 140px;
+  height: 140px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  border: 1px dashed #0070C0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec20 .container form .step .content .choose-item .choose-photo span {
+  color: var(--blue-dark,#0070C0);
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+  margin-top: 0;
+}
+.sec20 .container form .step .content .choose-item .choose-photo.preview {
+  background-color: transparent;
+}
+.sec20 .container form .step .content .choose-item .choose-photo.preview span {
+  display: none;
+}
+.sec20 .container form .step .content p span,
+.sec20 .container form .step .content p {
+  color: var(--black-default,#071027);
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+}
+.sec20 .container form .step .content label {
+  color: var(--black-50,rgba(0,0,0,0.5));
+  font-size: 12px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sec20 .container form .step .content label:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+.sec20 .container form .step .content label input {
+  border-radius: 4px;
+  border: 1px solid var(--black-line,#E1E1E1);
+  background: var(--white-default,#FFF);
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+.sec20 .container form .step .content button {
+  border-radius: 5px;
+  background: var(--blue-dark,#0070C0);
+  padding: 8px 24px;
+  width: 100%;
+  color: var(--white-default,#FFF);
+  font-size: 14px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.sec20 .container form .step .content a {
+  color: var(--blue-dark,#0070C0);
+  text-align: center;
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.sec20 .container form .step .content .vcode {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.sec20 .container form .step .content .vcode-input {
+  width: 58px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 1px solid var(--black-line,#E1E1E1);
+  background: var(--white-default,#FFF);
+}
+.sec20 .container form .step .content .resend {
+  margin-top: 20px;
+  display: flex;
+}
+.sec20 .container form .step .content .a-sign {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.sec20 .container form .step .content .bottom-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec20 .container form .step .content .bottom-btn .container-check {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  width: max-content;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: var(--black-default,#071027);
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+  text-transform: none;
+  font-weight: 500;
+}
+.sec20 .container form .step .content .bottom-btn .container-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.sec20 .container form .step .content .bottom-btn .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border-radius: 4px;
+  border: 2px solid var(--black-line,#E1E1E1);
+  background: var(--white-default,#FFF);
+  transition: .3s;
+  margin-top: 0;
+}
+.sec20 .container form .step .content .bottom-btn .container-check:hover input~.checkmark {
+  background-color: #ccc;
+}
+.sec20 .container form .step .content .bottom-btn .container-check input:checked~.checkmark {
+  background-color: #0070C0;
+  border-color: #0070C0;
+}
+.sec20 .container form .step .content .bottom-btn .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.sec20 .container form .step .content .bottom-btn .container-check input:checked~.checkmark:after {
+  display: block;
+}
+.sec20 .container form .step .content .bottom-btn .container-check .checkmark:after {
+  content: url(../img/checkbox-arrow.svg);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.sec20 .container form .step .logo {
+  margin-bottom: 30px;
+}
+.sec21 {
+  background-image: url(../img/sign-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  height: 100vh;
+  min-height: 925px;
+}
+.sec21 .container .partners {
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.sec21 .container .partners img {
+  margin: 0;
+}
+.sec21 .container form {
+  border-radius: 10px;
+  background: #FFF;
+  max-width: 410px;
+  margin: 30px auto 0;
+  padding: 20px 0;
+}
+.sec21 .container form .step {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.sec21 .container form .step.active {
+  display: flex;
+}
+.sec21 .container form .step .top-content {
+  padding: 0 40px 20px;
+  border-bottom: 1px solid #E1E1E1;
+  width: 100%;
+}
+.sec21 .container form .step .top-content a {
+  color: var(--black-default,#071027);
+  text-align: left;
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+}
+.sec21 .container form .step .top-content a:before {
+  content: url(../img/accordeon-arrow.svg);
+  transform: rotate(90deg);
+  display: inline-block;
+  margin-right: 5px;
+}
+.sec21 .container form .step .content {
+  padding: 30px 40px;
+  width: 100%;
+}
+.sec21 .container form .step .content p span,
+.sec21 .container form .step .content p {
+  color: var(--black-default,#071027);
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+}
+.sec21 .container form .step .content span {
+  color: var(--black-default,#071027);
+  font-size: 16px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.sec21 .container form .step .content label {
+  color: var(--black-50,rgba(0,0,0,0.5));
+  font-size: 12px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sec21 .container form .step .content label:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+.sec21 .container form .step .content label input {
+  border-radius: 4px;
+  border: 1px solid var(--black-line,#E1E1E1);
+  background: var(--white-default,#FFF);
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+.sec21 .container form .step .content button {
+  border-radius: 5px;
+  background: var(--blue-dark,#0070C0);
+  padding: 8px 24px;
+  width: 100%;
+  color: var(--white-default,#FFF);
+  font-size: 14px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.sec21 .container form .step-second .content .title {
+  color: var(--black-default,#071027);
+  font-size: 25px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.sec21 .container form .step-second .content p,
+.sec21 .container form .step-second .content p span {
+  color: var(--black-default,#0B0619);
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+  margin: 0;
+  font-weight: 500;
+}
+.sec21 .container form .step-second .content p {
+  display: flex;
+  flex-direction: column;
+}
+.sec21 .container form .step-second .content button {
+  color: #0070c0;
+  background: transparent;
+  border: 2px solid #0070c0;
+}
+.sec21 .container form .step-third .content .title {
+  color: var(--black-default,#071027);
+  font-size: 25px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.sec21 .container form .step-third .content p,
+.sec21 .container form .step-third .content p span {
+  color: var(--black-default,#0B0619);
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+  margin: 0;
+  font-weight: 500;
+}
+.sec21 .container form .step-third .content p {
+  margin-bottom: 30px;
+}
+.sec22 {
+  background-image: url(../img/sign-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  height: 100vh;
+  min-height: 925px;
+}
+.sec22 .container .partners {
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.sec22 .container .partners img {
+  margin: 0;
+}
+.sec22 .container form {
+  border-radius: 10px;
+  background: #FFF;
+  max-width: 410px;
+  margin: 30px auto 0;
+  padding: 20px 0;
+}
+.sec22 .container form .step {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.sec22 .container form .step.active {
+  display: flex;
+}
+.sec22 .container form .step .top-content {
+  padding: 0 40px 20px;
+  border-bottom: 1px solid #E1E1E1;
+  width: 100%;
+}
+.sec22 .container form .step .top-content a {
+  color: var(--black-default,#071027);
+  text-align: left;
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+}
+.sec22 .container form .step .top-content a:before {
+  content: url(../img/accordeon-arrow.svg);
+  transform: rotate(90deg);
+  display: inline-block;
+  margin-right: 5px;
+}
+.sec22 .container form .step .content {
+  padding: 30px 40px;
+  width: 100%;
+}
+.sec22 .container form .step .content:not(:last-child) {
+  border-bottom: 1px solid #E1E1E1;
+}
+.sec22 .container form .step .content .radio-btns {
+  margin-top: 16px;
+}
+.sec22 .container form .step .content .container-radio {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: var(--black-default,#071027);
+  font-size: 14px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 20px;
+  text-transform: none;
+}
+.sec22 .container form .step .content .container-radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.sec22 .container form .step .content .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 2px solid #E1E1E1;
+  border-radius: 50%;
+}
+.sec22 .container form .step .content .container-radio:hover input~.checkmark {
+  background-color: #ccc;
+}
+.sec22 .container form .step .content .container-radio input:checked~.checkmark {
+  background-color: #2196F3;
+  border-color: #2196F3;
+}
+.sec22 .container form .step .content .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.sec22 .container form .step .content .container-radio input:checked~.checkmark:after {
+  display: block;
+  border-color: #2196F3;
+}
+.sec22 .container form .step .content .container-radio .checkmark:after {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
+  border-color: #2196F3;
+}
+.sec22 .container form .step .content p span,
+.sec22 .container form .step .content p {
+  color: var(--black-default,#071027);
+  font-size: 14px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+}
+.sec22 .container form .step .content span {
+  color: var(--black-default,#071027);
+  font-size: 16px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.sec22 .container form .step .content label {
+  color: var(--black-50,rgba(0,0,0,0.5));
+  font-size: 12px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sec22 .container form .step .content label:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+.sec22 .container form .step .content label input {
+  border-radius: 4px;
+  border: 1px solid var(--black-line,#E1E1E1);
+  background: var(--white-default,#FFF);
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+.sec22 .container form .step .content button {
+  border-radius: 5px;
+  background: var(--blue-dark,#0070C0);
+  padding: 8px 24px;
+  width: 100%;
+  color: var(--white-default,#FFF);
+  font-size: 14px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 20px;
+}
+.sec22 .container form .step-second .content p,
+.sec22 .container form .step-second .content p span {
+  color: var(--black-default,#0B0619);
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+  margin: 0;
+  font-weight: 500;
+}
+.sec22 .container form .step-second .content p {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.sec22 .container form .step-fourth .content img {
+  margin-bottom: 20px;
+}
+.sec22 .container form .step-third .content {
+  padding-bottom: 0;
+}
+.sec22 .container form .step-third .content .title {
+  color: var(--black-default,#071027);
+  font-size: 25px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.sec22 .container form .step-third .content p {
+  color: var(--black-default,#0B0619);
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+  margin: 0;
+  font-weight: 500;
+  text-align: center;
+}
+.sec22 .container form .step-third .content p {
+  margin-bottom: 30px;
+}
 #modal-2 {
   max-width: 375px;
 }
@@ -5437,9 +6096,15 @@ a:hover {
   }
 }
 @media (min-width: 320px) and (max-width: 575px) {
+  .sec22 .container form .step .content,
+  .sec21 .container form .step .content,
+  .sec20 .container form .step .content,
   .sec19 .container form .step .content {
     padding: 30px 20px;
   }
+  .sec22 .container .partners,
+  .sec21 .container .partners,
+  .sec20 .container .partners,
   .sec19 .container .partners {
     flex-wrap: wrap;
   }
