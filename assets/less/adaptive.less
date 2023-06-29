@@ -22,6 +22,17 @@
 }
 
 @media (max-width: 991px) {
+  .sec23 .container .item .table .table-line .line-item {
+    &:nth-child(3) {
+      flex: 0 0 100%;
+      display: flex;
+      gap: 5px;
+
+      p {
+        width: max-content;
+      }
+    }
+  }
 
   #burger-menu {
     .df;
@@ -1521,6 +1532,7 @@
 
 // 0px - 767px
 @media (max-width: 767px) {
+
   //28.06
   .sec18 .container .item-doc .top-content .doc-name {
     color: var(--black-default, #071027);
@@ -1829,18 +1841,21 @@
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
+
   .sec22 .container form .step .content,
   .sec21 .container form .step .content,
   .sec20 .container form .step .content,
-  .sec19 .container form .step .content{
+  .sec19 .container form .step .content {
     padding: 30px 20px;
   }
+
   .sec22 .container .partners,
   .sec21 .container .partners,
   .sec20 .container .partners,
-  .sec19 .container .partners{
+  .sec19 .container .partners {
     flex-wrap: wrap;
   }
+
   // .help {
   //   display: none;
   // }
