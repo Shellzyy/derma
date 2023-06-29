@@ -2653,6 +2653,7 @@ a {
           border-bottom: 1px solid var(--black-line, #E1E1E1);
           background: var(--white-default, #FFF);
           padding: 20px;
+          border-radius: 10px 10px 0 0;
         }
 
         .table-line {
@@ -2736,6 +2737,11 @@ a {
         width: 100%;
         display: flex;
         justify-content: center;
+
+        &:before {
+          content: url(../img/present-btn.svg);
+          margin-right: 10px;
+        }
       }
 
       .doc-descr {
