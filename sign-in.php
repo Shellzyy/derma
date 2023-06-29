@@ -65,7 +65,7 @@ autoCompileLess('./assets/less/style.less', './assets/css/style.css');
                                     <input type="checkbox" checked="checked">
                                     <span class="checkmark"></span>
                                 </label>
-                                <a href="#">Не памʼятаю пароль</a>
+                                <a href="./reset-password.php">Не памʼятаю пароль</a>
                             </div>
                             <button>Увійти</button>
                             <a href="#" class="signup">Створити аккаунт</a>
@@ -110,7 +110,7 @@ autoCompileLess('./assets/less/style.less', './assets/css/style.css');
                                     <input type="checkbox" checked="checked">
                                     <span class="checkmark"></span>
                                 </label>
-                                <a href="#">Не памʼятаю пароль</a>
+                                <a href="./reset-password.php">Не памʼятаю пароль</a>
                             </div>
                             <button>Увійти</button>
                             <a href="#" class="signup">Створити аккаунт</a>
