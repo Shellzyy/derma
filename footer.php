@@ -23,6 +23,7 @@
     </div>
     <div class="container">
         <span>© 2023 Усі права захищені</span>
+        
         <div class="footer-bottomnav">
             <ul>
                 <li><a href="#">Політика конфіденційності</a></li>
