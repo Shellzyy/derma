@@ -22,6 +22,9 @@
 }
 
 @media (max-width: 991px) {
+  .sec25 .container .item .questions form{
+    margin: 0 auto;
+  }
   .sec23 .container .item .table .table-line .line-item {
     &:nth-child(3) {
       flex: 0 0 100%;
@@ -215,6 +218,9 @@
 }
 
 @media (min-width: 768px) and (max-width: 1090px) {
+  .sec25 .container .item {
+    max-width: unset;
+  }
 
   //sec8
   .sec8 {
@@ -436,14 +442,14 @@
     padding-bottom: 80px;
   }
 
-  .sec18 .container .item-nav {
+  .item-nav {
     position: fixed;
     bottom: 0;
     left: 0;
     background: #fff;
     z-index: 1;
     width: 100%;
-    max-width: unset;
+    max-width: unset !important;
     border-top: 1px solid var(--black-line, #E1E1E1);
     padding: 10px 15px;
 
@@ -846,14 +852,14 @@
     padding-bottom: 80px;
   }
 
-  .sec18 .container .item-nav {
+  .item-nav {
     position: fixed;
     bottom: 0;
     left: 0;
     background: #fff;
     z-index: 1;
     width: 100%;
-    max-width: unset;
+    max-width: unset !important;
     border-top: 1px solid var(--black-line, #E1E1E1);
     padding: 10px 15px;
 
@@ -1532,6 +1538,29 @@
 
 // 0px - 767px
 @media (max-width: 767px) {
+  .sec25 .container .item .content p {
+    color: var(--black-default, #071027);
+    font-size: 13px;
+    font-family: 'Golos Text VF', sans-serif;
+    line-height: 18px;
+  }
+
+  .sec25 .container .item .questions form {
+    button {
+      width: 100%;
+      justify-content: center;
+    }
+
+    label {
+      flex-direction: column;
+
+      textarea {
+        margin-left: 0;
+        width: 100%;
+        max-width: unset;
+      }
+    }
+  }
 
   //28.06
   .sec18 .container .item-doc .top-content .doc-name {
@@ -1866,14 +1895,14 @@
     padding-bottom: 80px;
   }
 
-  .sec18 .container .item-nav {
+  .item-nav {
     position: fixed;
     bottom: 0;
     left: 0;
     background: #fff;
     z-index: 1;
     width: 100%;
-    max-width: unset;
+    max-width: unset !important;
     border-top: 1px solid var(--black-line, #E1E1E1);
     padding: 10px 15px;
 
