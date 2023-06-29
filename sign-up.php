@@ -252,6 +252,7 @@ autoCompileLess('./assets/less/style.less', './assets/css/style.css');
     <script src="./assets/js/script.js"></script>
     <link rel="stylesheet" href="./assets/css/swiper/swiper-bundle.min.css">
     <script src="./assets/js/swiper/swiper-bundle.min.js"></script>
+    <!-- КОД ЯКИЙ ПЕРЕКЛЮЧАЄ ЕТАПИ ФОРМ (ЧИСТО ДЛЯ ДЕМОНСТРАЦІЇ ТОБІ) -->
     <script>
         $('.sec20 .container form .step-first .content button').click(function () {
             $('.step').removeClass('active');
@@ -276,6 +277,7 @@ autoCompileLess('./assets/less/style.less', './assets/css/style.css');
             $('.step-fifth').addClass('active');
         });
     </script>
+    <!-- КОД ЯКИЙ ПЕРЕКЛЮЧАЄ ЕТАПИ ФОРМ (ЧИСТО ДЛЯ ДЕМОНСТРАЦІЇ ТОБІ) -->
     <script>
         function choosePhoto(target) {
             // create new file input
