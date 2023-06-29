@@ -2175,7 +2175,6 @@ a {
             .custom-select {
               width: 100%;
               min-width: 310px;
-
             }
           }
 
@@ -3041,6 +3040,817 @@ a {
 
         .logo {
           margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+.signup-wrap {
+  .menu {
+    display: none;
+  }
+}
+
+.sec20 {
+  background-image: url(../img/sign-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  height: 100vh;
+  min-height: 925px;
+  padding-bottom: 30px;
+  // overflow: hidden;
+
+  .container {
+    .partners {
+      margin-top: 40px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+
+      img {
+        margin: 0;
+      }
+    }
+
+    .step-fifth {
+      padding: 30px 40px;
+
+      span {
+        margin: 20px 0 10px;
+        color: var(--black-default, #071027);
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Golos Text VF', sans-serif;
+        font-weight: 700;
+        line-height: 30px;
+      }
+
+      p {
+        color: var(--black-default, #071027);
+        text-align: center;
+        font-size: 13px;
+        font-family: 'Golos Text VF', sans-serif;
+        line-height: 18px;
+      }
+    }
+
+    form {
+      border-radius: 10px;
+      background: #FFF;
+      max-width: 410px;
+      margin: 30px auto 0;
+      padding: 20px 0;
+
+      .step {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+
+        &.active {
+          display: flex;
+        }
+
+        span {
+          margin-top: 10px;
+          color: var(--black-default, #071027);
+          text-align: center;
+          font-size: 16px;
+          font-family: 'Golos Text VF', sans-serif;
+          line-height: 24px;
+          text-align: center;
+        }
+
+        .error {
+          color: var(--red-2, #D02121);
+          text-align: center;
+          font-size: 14px;
+          font-family: 'Golos Text VF', sans-serif;
+          line-height: 20px;
+          padding: 10px 40px;
+          border-top: 1px solid #FBE9E9;
+          border-bottom: 1px solid #FBE9E9;
+          background: rgba(208, 33, 33, 0.05);
+          margin-top: 20px;
+        }
+
+        .top-content {
+          border-bottom: 1px solid #E1E1E1;
+          padding-bottom: 20px;
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+        }
+
+        .content {
+          padding: 30px 40px;
+          width: 100%;
+
+          .custom-select .select-selected {
+            border-color: #E1E1E1;
+          }
+
+          .selected-item {
+            margin-bottom: 20px;
+
+            span {
+              color: var(--black-50, rgba(0, 0, 0, 0.50));
+              font-size: 12px;
+              font-family: 'Golos Text VF', sans-serif;
+              font-weight: 600;
+              line-height: 16px;
+              letter-spacing: 0.24px;
+              text-transform: uppercase;
+              margin-bottom: 10px;
+            }
+          }
+
+          p {
+            color: rgba(0, 0, 0, 0.50) !important;
+            font-size: 13px;
+            font-family: 'Golos Text VF', sans-serif;
+            line-height: 18px;
+            display: inline-block;
+
+            &:not(:last-child) {
+              margin-bottom: 13px;
+            }
+
+            span {
+              color: #071027;
+              margin-top: 0;
+            }
+          }
+
+          &:not(:last-child) {
+            padding-bottom: 30px;
+            border: 1px solid #E1E1E1;
+          }
+
+          .choose-item {
+            .delete-photo {
+              display: none;
+
+              &.active {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+                color: var(--red-default, #DC3838);
+                text-align: center;
+                font-size: 13px;
+                font-family: 'Golos Text VF', sans-serif;
+                line-height: 18px;
+              }
+            }
+
+            .choose-photo {
+              margin: 0 auto;
+              width: 140px;
+              height: 140px;
+              border-radius: 10px;
+              cursor: pointer;
+              background-size: cover;
+              background-position: center;
+              border: 1px dashed #0070C0;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              span {
+                color: var(--blue-dark, #0070C0);
+                font-size: 13px;
+                font-family: 'Golos Text VF', sans-serif;
+                line-height: 18px;
+                margin-top: 0;
+              }
+
+              &.preview {
+                background-color: transparent;
+
+                span {
+                  display: none;
+                }
+              }
+            }
+          }
+
+          p span,
+          p {
+            color: var(--black-default, #071027);
+            font-size: 13px;
+            font-family: 'Golos Text VF', sans-serif;
+            line-height: 18px;
+          }
+
+          label {
+            color: var(--black-50, rgba(0, 0, 0, 0.50));
+            font-size: 12px;
+            font-family: 'Golos Text VF', sans-serif;
+            font-weight: 600;
+            line-height: 16px;
+            letter-spacing: 0.24px;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            &:not(:last-of-type) {
+              margin-bottom: 20px;
+            }
+
+            input {
+              border-radius: 4px;
+              border: 1px solid var(--black-line, #E1E1E1);
+              background: var(--white-default, #FFF);
+              padding: 10px 15px;
+              margin-top: 10px;
+            }
+          }
+
+          button {
+            border-radius: 5px;
+            background: var(--blue-dark, #0070C0);
+            padding: 8px 24px;
+            width: 100%;
+            color: var(--white-default, #FFF);
+            font-size: 14px;
+            font-family: 'Golos Text VF', sans-serif;
+            font-weight: 600;
+            line-height: 24px;
+            margin-top: 20px;
+          }
+
+          a {
+            color: var(--blue-dark, #0070C0);
+            text-align: center;
+            font-size: 13px;
+            font-family: 'Golos Text VF', sans-serif;
+            line-height: 18px;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+          }
+
+          .vcode {
+            margin-top: 20px;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+          }
+
+          .vcode-input {
+            width: 58px;
+            height: 40px;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 4px;
+            border: 1px solid var(--black-line, #E1E1E1);
+            background: var(--white-default, #FFF);
+          }
+
+          .resend {
+            margin-top: 20px;
+            display: flex;
+          }
+
+          .a-sign {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+          }
+
+          .bottom-btn {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .container-check {
+              display: block;
+              position: relative;
+              padding-left: 30px;
+              width: max-content;
+              cursor: pointer;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              color: var(--black-default, #071027);
+              font-size: 13px;
+              font-family: 'Golos Text VF', sans-serif;
+              line-height: 18px;
+              text-transform: none;
+              color: var(--black-default, #071027);
+              font-size: 13px;
+              font-family: 'Golos Text VF', sans-serif;
+              line-height: 18px;
+              font-weight: 500;
+            }
+
+            /* Hide the browser's default checkbox */
+            .container-check input {
+              position: absolute;
+              opacity: 0;
+              cursor: pointer;
+              height: 0;
+              width: 0;
+            }
+
+            /* Create a custom checkbox */
+            .checkmark {
+              position: absolute;
+              top: 0;
+              left: 0;
+              height: 18px;
+              width: 18px;
+              border-radius: 4px;
+              border: 2px solid var(--black-line, #E1E1E1);
+              background: var(--white-default, #FFF);
+              transition: .3s;
+              margin-top: 0;
+            }
+
+            /* On mouse-over, add a grey background color */
+            .container-check:hover input~.checkmark {
+              background-color: #ccc;
+            }
+
+            /* When the checkbox is checked, add a blue background */
+            .container-check input:checked~.checkmark {
+              background-color: #0070C0;
+              border-color: #0070C0;
+            }
+
+            /* Create the checkmark/indicator (hidden when not checked) */
+            .checkmark:after {
+              content: "";
+              position: absolute;
+              display: none;
+            }
+
+            /* Show the checkmark when checked */
+            .container-check input:checked~.checkmark:after {
+              display: block;
+            }
+
+            /* Style the checkmark/indicator */
+            .container-check .checkmark:after {
+              content: url(../img/checkbox-arrow.svg);
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%, -50%);
+            }
+          }
+        }
+
+        .logo {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+.sec21 {
+  background-image: url(../img/sign-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  height: 100vh;
+  min-height: 925px;
+
+  .container {
+    .partners {
+      margin-top: 40px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+
+      img {
+        margin: 0;
+      }
+    }
+
+    form {
+      border-radius: 10px;
+      background: #FFF;
+      max-width: 410px;
+      margin: 30px auto 0;
+      padding: 20px 0;
+
+      .step {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+
+        &.active {
+          display: flex;
+        }
+
+        .top-content {
+          padding: 0 40px 20px;
+          border-bottom: 1px solid #E1E1E1;
+          width: 100%;
+
+          a {
+            color: var(--black-default, #071027);
+            text-align: left;
+            font-size: 13px;
+            font-family: 'Golos Text VF', sans-serif;
+            line-height: 18px;
+
+            &:before {
+              content: url(../img/accordeon-arrow.svg);
+              transform: rotate(90deg);
+              display: inline-block;
+              margin-right: 5px;
+            }
+          }
+        }
+
+        .content {
+          padding: 30px 40px;
+          width: 100%;
+
+          p span,
+          p {
+            color: var(--black-default, #071027);
+            font-size: 13px;
+            font-family: 'Golos Text VF', sans-serif;
+            line-height: 18px;
+          }
+
+          span {
+            color: var(--black-default, #071027);
+            font-size: 16px;
+            font-family: 'Golos Text VF', sans-serif;
+            font-weight: 700;
+            line-height: 24px;
+            margin-bottom: 20px;
+          }
+
+          label {
+            color: var(--black-50, rgba(0, 0, 0, 0.50));
+            font-size: 12px;
+            font-family: 'Golos Text VF', sans-serif;
+            font-weight: 600;
+            line-height: 16px;
+            letter-spacing: 0.24px;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            &:not(:last-of-type) {
+              margin-bottom: 20px;
+            }
+
+            input {
+              border-radius: 4px;
+              border: 1px solid var(--black-line, #E1E1E1);
+              background: var(--white-default, #FFF);
+              padding: 10px 15px;
+              margin-top: 10px;
+            }
+          }
+
+          button {
+            border-radius: 5px;
+            background: var(--blue-dark, #0070C0);
+            padding: 8px 24px;
+            width: 100%;
+            color: var(--white-default, #FFF);
+            font-size: 14px;
+            font-family: 'Golos Text VF', sans-serif;
+            font-weight: 600;
+            line-height: 24px;
+            margin-top: 20px;
+          }
+        }
+      }
+
+      .step-second {
+        .content {
+          .title {
+            color: var(--black-default, #071027);
+            font-size: 25px;
+            font-family: 'Golos Text VF', sans-serif;
+            font-weight: 700;
+            line-height: 30px;
+            margin-bottom: 10px;
+          }
+
+          p,
+          p span {
+            color: var(--black-default, #0B0619);
+            font-size: 13px;
+            font-family: 'Golos Text VF', sans-serif;
+            line-height: 18px;
+            margin: 0;
+            font-weight: 500;
+          }
+
+          p {
+            display: flex;
+            flex-direction: column;
+          }
+
+          button {
+            color: #0070c0;
+            background: transparent;
+            border: 2px solid #0070c0;
+          }
+        }
+      }
+
+      .step-third {
+        .content {
+          .title {
+            color: var(--black-default, #071027);
+            font-size: 25px;
+            font-family: 'Golos Text VF', sans-serif;
+            font-weight: 700;
+            line-height: 30px;
+            margin-bottom: 10px;
+          }
+
+          p,
+          p span {
+            color: var(--black-default, #0B0619);
+            font-size: 13px;
+            font-family: 'Golos Text VF', sans-serif;
+            line-height: 18px;
+            margin: 0;
+            font-weight: 500;
+          }
+
+          p {
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.sec22 {
+  background-image: url(../img/sign-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  height: 100vh;
+  min-height: 925px;
+
+  .container {
+    .partners {
+      margin-top: 40px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+
+      img {
+        margin: 0;
+      }
+    }
+
+    form {
+      border-radius: 10px;
+      background: #FFF;
+      max-width: 410px;
+      margin: 30px auto 0;
+      padding: 20px 0;
+
+      .step {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+
+        &.active {
+          display: flex;
+        }
+
+        .top-content {
+          padding: 0 40px 20px;
+          border-bottom: 1px solid #E1E1E1;
+          width: 100%;
+
+          a {
+            color: var(--black-default, #071027);
+            text-align: left;
+            font-size: 13px;
+            font-family: 'Golos Text VF', sans-serif;
+            line-height: 18px;
+
+            &:before {
+              content: url(../img/accordeon-arrow.svg);
+              transform: rotate(90deg);
+              display: inline-block;
+              margin-right: 5px;
+            }
+          }
+        }
+
+        .content {
+          padding: 30px 40px;
+          width: 100%;
+
+          &:not(:last-child) {
+            border-bottom: 1px solid #E1E1E1;
+          }
+
+          .radio-btns {
+            margin-top: 16px;
+          }
+
+          .container-radio {
+            display: block;
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 22px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            color: var(--black-default, #071027);
+            font-size: 14px;
+            font-family: 'Golos Text VF', sans-serif;
+            line-height: 20px;
+            text-transform: none;
+          }
+
+          /* Hide the browser's default radio button */
+          .container-radio input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+          }
+
+          /* Create a custom radio button */
+          .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 20px;
+            width: 20px;
+            background-color: transparent;
+            border: 2px solid #E1E1E1;
+            border-radius: 50%;
+          }
+
+          /* On mouse-over, add a grey background color */
+          .container-radio:hover input~.checkmark {
+            background-color: #ccc;
+          }
+
+          /* When the radio button is checked, add a blue background */
+          .container-radio input:checked~.checkmark {
+            background-color: #2196F3;
+            border-color: #2196F3;
+          }
+
+          /* Create the indicator (the dot/circle - hidden when not checked) */
+          .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+          }
+
+          /* Show the indicator (dot/circle) when checked */
+          .container-radio input:checked~.checkmark:after {
+            display: block;
+            border-color: #2196F3;
+          }
+
+          /* Style the indicator (dot/circle) */
+          .container-radio .checkmark:after {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: white;
+            border-color: #2196F3;
+          }
+
+          p span,
+          p {
+            color: var(--black-default, #071027);
+            font-size: 14px;
+            font-family: 'Golos Text VF', sans-serif;
+            line-height: 18px;
+          }
+
+          span {
+            color: var(--black-default, #071027);
+            font-size: 16px;
+            font-family: 'Golos Text VF', sans-serif;
+            font-weight: 700;
+            line-height: 24px;
+            margin-bottom: 20px;
+          }
+
+          label {
+            color: var(--black-50, rgba(0, 0, 0, 0.50));
+            font-size: 12px;
+            font-family: 'Golos Text VF', sans-serif;
+            font-weight: 600;
+            line-height: 16px;
+            letter-spacing: 0.24px;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            &:not(:last-of-type) {
+              margin-bottom: 20px;
+            }
+
+            input {
+              border-radius: 4px;
+              border: 1px solid var(--black-line, #E1E1E1);
+              background: var(--white-default, #FFF);
+              padding: 10px 15px;
+              margin-top: 10px;
+            }
+          }
+
+          button {
+            border-radius: 5px;
+            background: var(--blue-dark, #0070C0);
+            padding: 8px 24px;
+            width: 100%;
+            color: var(--white-default, #FFF);
+            font-size: 14px;
+            font-family: 'Golos Text VF', sans-serif;
+            font-weight: 600;
+            line-height: 24px;
+            margin-top: 20px;
+          }
+        }
+      }
+
+      .step-second {
+        .content {
+
+          p,
+          p span {
+            color: var(--black-default, #0B0619);
+            font-size: 13px;
+            font-family: 'Golos Text VF', sans-serif;
+            line-height: 18px;
+            margin: 0;
+            font-weight: 500;
+          }
+
+          p {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      .step-fourth {
+        .content {
+          img {
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      .step-third {
+        .content {
+          padding-bottom: 0;
+
+          .title {
+            color: var(--black-default, #071027);
+            font-size: 25px;
+            font-family: 'Golos Text VF', sans-serif;
+            font-weight: 700;
+            line-height: 30px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+          }
+
+          p {
+            color: var(--black-default, #0B0619);
+            font-size: 13px;
+            font-family: 'Golos Text VF', sans-serif;
+            line-height: 18px;
+            margin: 0;
+            font-weight: 500;
+            text-align: center;
+          }
+
+          p {
+            margin-bottom: 30px;
+          }
         }
       }
     }
