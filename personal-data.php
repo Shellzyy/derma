@@ -164,7 +164,7 @@
                             <p>Встановіть новий пароль для входу в обліковий запис.</p>
                         </div>
                         <div class="button">
-                            <a href="#">Змінити</a>
+                            <a href="javascript:void(0)" class="md-trigger" data-modal="modal-3">Змінити</a>
                         </div>
                     </div>
                     <div class="account_del">
@@ -173,7 +173,7 @@
                             <p>Ви більше не зможете користуватись акаунтом. Всі бали будуть втрачені.</p>
                         </div>
                         <div class="button">
-                            <a href="#">Видалити</a>
+                            <a href="javascript:void(0)" class="md-trigger" data-modal="modal-4">Видалити</a>
                         </div>
                     </div>
                 </div>
