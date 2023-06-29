@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:24:"./assets/less/style.less";s:8:"compiled";s:181851:"@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap");
+a:4:{s:4:"root";s:24:"./assets/less/style.less";s:8:"compiled";s:184130:"@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap");
 @charset "UTF-8";
 @-ms-viewport {
   width: device-width;
@@ -5565,6 +5565,108 @@ a:hover {
   line-height: 24px;
   color: #1e1f24;
 }
+#modal-3 {
+  max-width: 590px;
+}
+#modal-3 .md-content {
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 12px 24px 0px rgba(0,0,0,0.05);
+  padding: 40px 40px 30px 40px;
+}
+#modal-3 .md-content .md-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#modal-3 .md-content h4 {
+  color: var(--black-default,#071027);
+  font-size: 25px;
+  font-family: "Golos Text";
+  font-weight: 700;
+  line-height: 30px;
+}
+#modal-3 .md-content p {
+  color: var(--black-default,#071027);
+  font-size: 14px;
+  font-family: "Golos Text";
+  line-height: 20px;
+  margin: 10px 0 30px;
+}
+#modal-3 .md-content .labels label {
+  color: var(--black-50,rgba(0,0,0,0.5));
+  font-size: 12px;
+  font-family: "Golos Text";
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#modal-3 .md-content .labels label input {
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: 1px solid #E1E1E1;
+  background: #FFF;
+  margin-top: 10px;
+}
+#modal-3 .md-content .btn-form button {
+  color: #FFF;
+  font-size: 14px;
+  font-family: "Golos Text";
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 5px;
+  background: var(--blue-dark,#0070C0);
+  padding: 8px 24px;
+  margin-left: auto;
+  margin-right: 0;
+  display: flex;
+}
+#modal-4 {
+  max-width: 590px;
+}
+#modal-4 .md-content {
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 12px 24px 0px rgba(0,0,0,0.05);
+  padding: 40px 40px 30px 40px;
+}
+#modal-4 .md-content .md-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#modal-4 .md-content h4 {
+  color: var(--black-default,#071027);
+  font-size: 25px;
+  font-family: "Golos Text";
+  font-weight: 700;
+  line-height: 30px;
+}
+#modal-4 .md-content p {
+  color: var(--black-default,#071027);
+  font-size: 14px;
+  font-family: "Golos Text";
+  line-height: 20px;
+  margin: 10px 0 30px;
+}
+#modal-4 .md-content .btn-form button {
+  color: #FFF;
+  font-size: 14px;
+  font-family: "Golos Text";
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 5px;
+  border: 1px solid var(--red-default,#DC3838);
+  background: var(--red-default,#DC3838);
+  padding: 8px 24px;
+  margin-left: auto;
+  margin-right: 0;
+  display: flex;
+}
 @media (max-width: 1440px) {
   #modal-2 .md-content form .labels {
     max-height: 336px;
@@ -5623,14 +5725,7 @@ a:hover {
     margin-top: 20px;
   }
   .sec24 .container .item-personal .s1 form .personal-data .item input,
-  .sec24
-    .container
-    .item-personal
-    .s1
-    form
-    .personal-location
-    .item
-    .custom-select,
+  .sec24 .container .item-personal .s1 form .personal-location .item .custom-select,
   .sec24 .container .item-personal .s1 form .personal-social .item input {
     max-width: 100%;
   }
@@ -6979,6 +7074,10 @@ a:hover {
   }
 }
 @media (min-width: 320px) and (max-width: 565px) {
+  #modal-4 .md-content,
+  #modal-3 .md-content {
+    padding: 20px;
+  }
   .sec27 .container .content .btns {
     flex-direction: column;
   }
@@ -7779,4 +7878,4 @@ a:hover {
     max-width: 220px;
   }
 }
-";s:5:"files";a:6:{s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\style.less";i:1688078438;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\normalize.less";i:1648324321;s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\modal.less";i:1635662832;s:68:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\flexbox.less";i:1635662832;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\helpclass.less";i:1683316460;s:69:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\adaptive.less";i:1688078135;}s:7:"updated";i:1688078440;}
+";s:5:"files";a:6:{s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\style.less";i:1688080014;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\normalize.less";i:1648324321;s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\modal.less";i:1635662832;s:68:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\flexbox.less";i:1635662832;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\helpclass.less";i:1683316460;s:69:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\adaptive.less";i:1688079958;}s:7:"updated";i:1688080016;}
