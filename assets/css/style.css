@@ -3688,6 +3688,221 @@ a:hover {
   object-fit: cover;
   border-radius: 10px;
 }
+.sec19 {
+  background-image: url(../img/sign-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  height: 100vh;
+  min-height: 925px;
+}
+.sec19 .container .partners {
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.sec19 .container .partners img {
+  margin: 0;
+}
+.sec19 .container form {
+  border-radius: 10px;
+  background: #FFF;
+  max-width: 410px;
+  margin: 30px auto 0;
+  padding: 20px 0;
+}
+.sec19 .container form .step {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.sec19 .container form .step.active {
+  display: flex;
+}
+.sec19 .container form .step span {
+  margin-top: 10px;
+  color: var(--black-default,#071027);
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 24px;
+}
+.sec19 .container form .step .error {
+  color: var(--red-2,#D02121);
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 20px;
+  padding: 10px 40px;
+  border-top: 1px solid #FBE9E9;
+  border-bottom: 1px solid #FBE9E9;
+  background: rgba(208,33,33,0.05);
+  margin-top: 20px;
+}
+.sec19 .container form .step .top-content {
+  border-bottom: 1px solid #E1E1E1;
+  padding-bottom: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.sec19 .container form .step .content {
+  padding: 30px 40px;
+  width: 100%;
+}
+.sec19 .container form .step .content p span,
+.sec19 .container form .step .content p {
+  color: var(--black-default,#071027);
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+}
+.sec19 .container form .step .content label {
+  color: var(--black-50,rgba(0,0,0,0.5));
+  font-size: 12px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sec19 .container form .step .content label:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+.sec19 .container form .step .content label input {
+  border-radius: 4px;
+  border: 1px solid var(--black-line,#E1E1E1);
+  background: var(--white-default,#FFF);
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+.sec19 .container form .step .content button {
+  border-radius: 5px;
+  background: var(--blue-dark,#0070C0);
+  padding: 8px 24px;
+  width: 100%;
+  color: var(--white-default,#FFF);
+  font-size: 14px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 40px;
+}
+.sec19 .container form .step .content a.signup {
+  color: var(--black-default,#071027);
+  font-size: 14px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 8px 24px;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid var(--black-default,#071027);
+  background: #FFF;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.sec19 .container form .step .content a {
+  color: var(--blue-dark,#0070C0);
+  text-align: left;
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+}
+.sec19 .container form .step .content .vcode {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.sec19 .container form .step .content .vcode-input {
+  width: 58px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 1px solid var(--black-line,#E1E1E1);
+  background: var(--white-default,#FFF);
+}
+.sec19 .container form .step .content .resend {
+  margin-top: 20px;
+  display: flex;
+}
+.sec19 .container form .step .content .a-sign {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.sec19 .container form .step .content .bottom-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec19 .container form .step .content .bottom-btn .container-check {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  width: max-content;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: var(--black-default,#071027);
+  font-size: 13px;
+  font-family: 'Golos Text VF', sans-serif;
+  line-height: 18px;
+  text-transform: none;
+}
+.sec19 .container form .step .content .bottom-btn .container-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.sec19 .container form .step .content .bottom-btn .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border-radius: 4px;
+  border: 2px solid var(--black-line,#E1E1E1);
+  background: var(--white-default,#FFF);
+  transition: .3s;
+  margin-top: 0;
+}
+.sec19 .container form .step .content .bottom-btn .container-check:hover input~.checkmark {
+  background-color: #ccc;
+}
+.sec19 .container form .step .content .bottom-btn .container-check input:checked~.checkmark {
+  background-color: #0070C0;
+  border-color: #0070C0;
+}
+.sec19 .container form .step .content .bottom-btn .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.sec19 .container form .step .content .bottom-btn .container-check input:checked~.checkmark:after {
+  display: block;
+}
+.sec19 .container form .step .content .bottom-btn .container-check .checkmark:after {
+  content: url(../img/checkbox-arrow.svg);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.sec19 .container form .step .logo {
+  margin-bottom: 30px;
+}
 #modal-2 {
   max-width: 375px;
 }
@@ -3754,7 +3969,7 @@ a:hover {
   padding: 0;
   padding-left: 25px;
   border: 0;
-  margin-top: 15px;
+  margin-bottom: 0 !important;
 }
 #modal-2 .md-content form .labels label .container-check input {
   position: absolute;
@@ -3773,6 +3988,7 @@ a:hover {
   border-radius: 4px;
   background-color: transparent;
   transition: 0.3s;
+  margin-top: 0;
 }
 #modal-2 .md-content form .labels label .container-check:hover input~.checkmark {
   border: 2px solid #ccc;
@@ -5221,6 +5437,12 @@ a:hover {
   }
 }
 @media (min-width: 320px) and (max-width: 575px) {
+  .sec19 .container form .step .content {
+    padding: 30px 20px;
+  }
+  .sec19 .container .partners {
+    flex-wrap: wrap;
+  }
   .sec18 {
     padding-top: 20px;
     padding-bottom: 80px;
