@@ -14,7 +14,7 @@
         </div>
         <div class="content">
             <div class="photo">
-                <img src="" alt="">
+                <img src="./assets/img/result-il.svg" alt="">
             </div>
             <div class="result">
                 <p>Вітаємо з успішним проходженням тесту! <span>5</span> правильних відповідей із 5-ти</p>
@@ -27,6 +27,9 @@
     </div>
 </section>
 <style>
+    body{
+        background: #F4F4F8;
+    }
     footer {
         background: #F4F4F8;
     }
