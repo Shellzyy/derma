@@ -1,9 +1,9 @@
 <?php require "header.php" ?>
-<section class="sec18">
+<section class="sec18 sec23">
     <div class="container">
         <div class="item-nav">
             <ul>
-                <li class="active">
+                <li>
                     <a href="#">
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -14,7 +14,7 @@
                         <span>Навчання</span>
                     </a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="#">
                         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -62,20 +62,25 @@
         </div>
         <div class="item">
             <div class="table">
-                <div class="table-name">Навчання</div>
+                <div class="table-name">Історія</div>
                 <div class="table-line table-th">
-                    <span>курс</span>
-                    <span>тривалість</span>
-                    <span>бали</span>
+                    <span>Подія</span>
+                    <span>Дата</span>
+                    <span>Статус</span>
+                    <span>Бали</span>
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -84,12 +89,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -98,12 +107,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -112,12 +125,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -126,12 +143,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -140,12 +161,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -154,12 +179,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -168,12 +197,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -182,12 +215,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -196,12 +233,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -210,12 +251,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -224,12 +269,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -238,12 +287,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -252,12 +305,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -266,12 +323,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -280,12 +341,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -294,12 +359,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -308,12 +377,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -322,12 +395,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
@@ -336,12 +413,16 @@
                 </div>
                 <div class="table-line">
                     <div class="line-item">
-                        <p class="line-title">Курс</p>
+                        <p class="line-title">Подія</p>
                         <p>Сонцезахисна гама Капіталь Солей від бренду Віши</p>
                     </div>
                     <div class="line-item">
-                        <p class="line-title">Тривалість</p>
-                        <p>1 год. 30 хв.</p>
+                        <p class="line-title">Дата</p>
+                        <p>08.05.2023</p>
+                    </div>
+                    <div class="line-item">
+                        <p class="line-title">Статус</p>
+                        <p>Пройдено</p>
                     </div>
                     <div class="line-item">
                         <p class="line-title">Бали</p>
