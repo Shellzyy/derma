@@ -1,4 +1,4 @@
-a:4:{s:4:"root";s:24:"./assets/less/style.less";s:8:"compiled";s:156060:"@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap");
+a:4:{s:4:"root";s:24:"./assets/less/style.less";s:8:"compiled";s:156424:"@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap");
 @charset "UTF-8";
 @-ms-viewport {
   width: device-width;
@@ -3584,6 +3584,7 @@ a:hover {
   border-bottom: 1px solid var(--black-line,#E1E1E1);
   background: var(--white-default,#FFF);
   padding: 20px;
+  border-radius: 10px 10px 0 0;
 }
 .sec18 .container .item .table .table-line {
   border-bottom: 1px solid var(--black-line,#E1E1E1);
@@ -3652,6 +3653,10 @@ a:hover {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+.sec18 .container .item-doc a:before {
+  content: url(../img/present-btn.svg);
+  margin-right: 10px;
 }
 .sec18 .container .item-doc .doc-descr .doc-stat p {
   color: rgba(0,0,0,0.5);
@@ -4712,6 +4717,14 @@ a:hover {
   }
 }
 @media (max-width: 991px) {
+  .sec23 .container .item .table .table-line .line-item:nth-child(3) {
+    flex: 0 0 100%;
+    display: flex;
+    gap: 5px;
+  }
+  .sec23 .container .item .table .table-line .line-item:nth-child(3) p {
+    width: max-content;
+  }
   #burger-menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6807,4 +6820,4 @@ a:hover {
     max-width: 220px;
   }
 }
-";s:5:"files";a:6:{s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\style.less";i:1688058867;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\normalize.less";i:1648324321;s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\modal.less";i:1635662832;s:68:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\flexbox.less";i:1635662832;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\helpclass.less";i:1683316460;s:69:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\adaptive.less";i:1688058883;}s:7:"updated";i:1688058884;}
+";s:5:"files";a:6:{s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\style.less";i:1688059733;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\normalize.less";i:1648324321;s:66:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\modal.less";i:1635662832;s:68:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\flexbox.less";i:1635662832;s:70:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\helpclass.less";i:1683316460;s:69:"F:\Programs\OSPanel\domains\localhost\derma\assets\less\adaptive.less";i:1688059640;}s:7:"updated";i:1688059734;}
