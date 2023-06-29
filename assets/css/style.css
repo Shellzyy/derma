@@ -4567,6 +4567,158 @@ a:hover {
 .sec22 .container form .step-third .content p {
   margin-bottom: 30px;
 }
+.sec25 {
+  padding-top: 50px;
+  background: #F4F4F8;
+  padding-bottom: 100px;
+}
+.sec25 .container {
+  display: flex;
+  gap: 30px;
+}
+.sec25 .container .item-nav {
+  width: 100%;
+  max-width: 190px;
+}
+.sec25 .container .item-nav ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+.sec25 .container .item-nav ul li a svg {
+  margin-right: 10px;
+}
+.sec25 .container .item-nav ul li:hover a,
+.sec25 .container .item-nav ul li.active a {
+  opacity: 1;
+}
+.sec25 .container .item-nav ul li:hover a svg path,
+.sec25 .container .item-nav ul li.active a svg path {
+  transition: .3s;
+  stroke: #0070C0;
+}
+.sec25 .container .item-nav ul li:hover a span,
+.sec25 .container .item-nav ul li.active a span {
+  transition: .3s;
+  color: #0070C0;
+}
+.sec25 .container .item {
+  width: 100%;
+  max-width: 740px;
+  border-radius: 10px;
+  background: var(--white-default,#FFF);
+}
+.sec25 .container .item .title {
+  border-radius: 10px 10px 0px 0px;
+  border-bottom: 1px solid var(--black-line,#E1E1E1);
+  background: var(--white-default,#FFF);
+  padding: 15px 20px;
+}
+.sec25 .container .item .title h2 {
+  color: var(--black-default,#071027);
+  font-size: 20px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 700;
+  line-height: 25px;
+}
+.sec25 .container .item .content {
+  padding: 30px 20px;
+  border-bottom: 1px solid #E1E1E1;
+}
+.sec25 .container .item .questions {
+  padding: 30px 20px;
+}
+.sec25 .container .item .questions form {
+  max-width: 530px;
+}
+.sec25 .container .item .questions form label {
+  color: var(--black-50,rgba(0,0,0,0.5));
+  font-size: 12px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+  display: flex;
+}
+.sec25 .container .item .questions form label textarea {
+  border-radius: 4px;
+  border: 1px solid var(--black-line,#E1E1E1);
+  background: var(--white-default,#FFF);
+  margin-left: 100px;
+  padding: 15px;
+  max-width: 360px;
+  max-height: 80px;
+  color: #000;
+  line-height: 130%;
+}
+.sec25 .container .item .questions form button {
+  color: var(--white-default,#FFF);
+  font-size: 14px;
+  font-family: 'Golos Text VF', sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 8px 24px;
+  border-radius: 5px;
+  background: var(--blue-dark,#0070C0);
+  margin: 30px auto 0;
+  display: flex;
+}
+.sec26 .container {
+  max-width: 850px;
+}
+.sec26 .container .title h2 {
+  color: var(--black-default,#071027);
+  font-size: 30px;
+  font-family: "Golos Text";
+  font-weight: 700;
+  line-height: 35px;
+}
+.sec26 .container .content {
+  padding: 30px 40px;
+  border-radius: 8px;
+  background: var(--white-default,#FFF);
+  box-shadow: 0px 12px 24px 0px rgba(0,0,0,0.05);
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec26 .container .content p {
+  color: var(--black-default,#071027);
+  text-align: center;
+  margin: 30px 0 30px;
+  font-size: 14px;
+  font-family: "Golos Text";
+  line-height: 20px;
+}
+.sec26 .container .content .btns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-top: 1px solid #E1E1E1;
+  padding-top: 30px;
+  width: 100%;
+}
+.sec26 .container .content .btns a {
+  width: max-content;
+  margin: 0 auto;
+}
+.sec26 .container .content .btns a:first-child {
+  color: #FFF;
+  font-size: 14px;
+  font-family: "Golos Text";
+  font-weight: 600;
+  padding: 8px 24px;
+  border-radius: 5px;
+  background: var(--blue-dark,#0070C0);
+  line-height: 24px;
+}
+.sec26 .container .content .btns a:last-child {
+  color: var(--blue-dark,#0070C0);
+  text-align: center;
+  font-size: 14px;
+  font-family: "Golos Text";
+  line-height: 20px;
+}
 #modal-2 {
   max-width: 375px;
 }
@@ -4717,6 +4869,9 @@ a:hover {
   }
 }
 @media (max-width: 991px) {
+  .sec25 .container .item .questions form {
+    margin: 0 auto;
+  }
   .sec23 .container .item .table .table-line .line-item:nth-child(3) {
     flex: 0 0 100%;
     display: flex;
@@ -4865,6 +5020,9 @@ a:hover {
   }
 }
 @media (min-width: 768px) and (max-width: 1090px) {
+  .sec25 .container .item {
+    max-width: unset;
+  }
   .sec8 {
     padding: 50px 0;
   }
@@ -5036,37 +5194,37 @@ a:hover {
     padding-top: 20px;
     padding-bottom: 80px;
   }
-  .sec18 .container .item-nav {
+  .item-nav {
     position: fixed;
     bottom: 0;
     left: 0;
     background: #fff;
     z-index: 1;
     width: 100%;
-    max-width: unset;
+    max-width: unset !important;
     border-top: 1px solid var(--black-line,#E1E1E1);
     padding: 10px 15px;
   }
-  .sec18 .container .item-nav ul {
+  .item-nav ul {
     display: flex;
     justify-content: space-evenly;
   }
-  .sec18 .container .item-nav ul li {
+  .item-nav ul li {
     text-align: center;
     color: var(--black-70,rgba(30,31,36,0.7));
     font-size: 10px;
     font-family: 'Golos Text VF', sans-serif;
     line-height: 10px;
   }
-  .sec18 .container .item-nav ul li:not(:last-child) {
+  .item-nav ul li:not(:last-child) {
     margin-bottom: 0;
   }
-  .sec18 .container .item-nav ul li a {
+  .item-nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .sec18 .container .item-nav ul li a svg {
+  .item-nav ul li a svg {
     margin-right: 0;
     margin-bottom: 5px;
   }
@@ -5337,37 +5495,37 @@ a:hover {
     padding-top: 20px;
     padding-bottom: 80px;
   }
-  .sec18 .container .item-nav {
+  .item-nav {
     position: fixed;
     bottom: 0;
     left: 0;
     background: #fff;
     z-index: 1;
     width: 100%;
-    max-width: unset;
+    max-width: unset !important;
     border-top: 1px solid var(--black-line,#E1E1E1);
     padding: 10px 15px;
   }
-  .sec18 .container .item-nav ul {
+  .item-nav ul {
     display: flex;
     justify-content: space-between;
   }
-  .sec18 .container .item-nav ul li {
+  .item-nav ul li {
     text-align: center;
     color: var(--black-70,rgba(30,31,36,0.7));
     font-size: 10px;
     font-family: 'Golos Text VF', sans-serif;
     line-height: 10px;
   }
-  .sec18 .container .item-nav ul li:not(:last-child) {
+  .item-nav ul li:not(:last-child) {
     margin-bottom: 0;
   }
-  .sec18 .container .item-nav ul li a {
+  .item-nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .sec18 .container .item-nav ul li a svg {
+  .item-nav ul li a svg {
     margin-right: 0;
     margin-bottom: 5px;
   }
@@ -5870,6 +6028,24 @@ a:hover {
   }
 }
 @media (max-width: 767px) {
+  .sec25 .container .item .content p {
+    color: var(--black-default,#071027);
+    font-size: 13px;
+    font-family: 'Golos Text VF', sans-serif;
+    line-height: 18px;
+  }
+  .sec25 .container .item .questions form button {
+    width: 100%;
+    justify-content: center;
+  }
+  .sec25 .container .item .questions form label {
+    flex-direction: column;
+  }
+  .sec25 .container .item .questions form label textarea {
+    margin-left: 0;
+    width: 100%;
+    max-width: unset;
+  }
   .sec18 .container .item-doc .top-content .doc-name {
     color: var(--black-default,#071027);
     font-size: 16px;
@@ -6125,37 +6301,37 @@ a:hover {
     padding-top: 20px;
     padding-bottom: 80px;
   }
-  .sec18 .container .item-nav {
+  .item-nav {
     position: fixed;
     bottom: 0;
     left: 0;
     background: #fff;
     z-index: 1;
     width: 100%;
-    max-width: unset;
+    max-width: unset !important;
     border-top: 1px solid var(--black-line,#E1E1E1);
     padding: 10px 15px;
   }
-  .sec18 .container .item-nav ul {
+  .item-nav ul {
     display: flex;
     justify-content: space-between;
   }
-  .sec18 .container .item-nav ul li {
+  .item-nav ul li {
     text-align: center;
     color: var(--black-70,rgba(30,31,36,0.7));
     font-size: 10px;
     font-family: 'Golos Text VF', sans-serif;
     line-height: 10px;
   }
-  .sec18 .container .item-nav ul li:not(:last-child) {
+  .item-nav ul li:not(:last-child) {
     margin-bottom: 0;
   }
-  .sec18 .container .item-nav ul li a {
+  .item-nav ul li a {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .sec18 .container .item-nav ul li a svg {
+  .item-nav ul li a svg {
     margin-right: 0;
     margin-bottom: 5px;
   }
