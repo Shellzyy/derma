@@ -92,5 +92,39 @@
         </form>
     </div>
 </div>
+<div class="md-modal md-effect-1" id="modal-3">
+    <div class="md-content">
+        <button class="md-close"><img src="./assets/img/close.svg" alt=""></button>
+        <form action="#">
+            <h4>Зміна пароля</h4>
+            <p>Встановіть новий пароль для входу в обліковий запис.</p>
+            <div class="labels">
+                <label>
+                    Новий пароль
+                    <input type="text">
+                </label>
+                <label>
+                    Новий пароль
+                    <input type="text">
+                </label>
+            </div>
+            <div class="btn-form">
+                <button>Надіслати</button>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="md-modal md-effect-1" id="modal-4">
+    <div class="md-content">
+        <button class="md-close"><img src="./assets/img/close.svg" alt=""></button>
+        <form action="#">
+            <h4>Видалення аккаунту</h4>
+            <p>Ви більше не зможете користуватись акаунтом. Всі бали будуть втрачені.</p>
+            <div class="btn-form">
+                <button>Видалити</button>
+            </div>
+        </form>
+    </div>
+</div>
 <!-- Конец модального окна -->
 <div class="md-overlay"></div>
