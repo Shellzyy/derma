@@ -4677,7 +4677,7 @@ a {
             }
 
             .stats {
-              width: 100%;
+              width: 30%;
               display: flex;
               pointer-events: none;
 
@@ -4746,7 +4746,7 @@ a {
             }
 
             .content-line {
-              height: 60px;
+              height: 104px;
               display: flex;
               justify-content: space-between;
               align-items: center;
@@ -4767,10 +4767,11 @@ a {
               }
 
               .stats {
-                width: 50%;
+                width: 60%;
                 display: flex;
                 align-items: center;
                 justify-content: flex-end;
+                gap: 0 20px;
 
                 .line-date {
                   width: 40%;
@@ -4784,7 +4785,10 @@ a {
                 .btn {
                   display: flex;
                   width: 32%;
-                  justify-content: flex-end;
+                  justify-content: center;
+                  flex-direction: column;
+                  align-items: flex-end;
+                  gap: 10px;
 
                   a {
                     width: 100%;
@@ -4792,11 +4796,11 @@ a {
                     font-style: normal;
                     font-weight: 600;
                     font-size: 14px;
+                    min-width: 145px;
                     line-height: 20px;
                     color: #ffffff;
                     background: #0070c0;
                     border-radius: 4px;
-                    max-width: 94px;
                     width: 100%;
                     height: 32px;
                     display: flex;
@@ -4806,6 +4810,21 @@ a {
                     &:hover {
                       background: #0052a2;
                       opacity: 1;
+                    }
+                  }
+
+                  .done-btn {
+                    border-radius: 4px;
+                    background: rgba(0, 112, 192, 0.10);
+                    color: var(--blue-dark, #0070C0);
+                    font-size: 14px;
+                    font-family: "Golos Text";
+                    font-weight: 600;
+                    line-height: 20px;
+
+                    &:hover {
+                      background: rgba(0, 112, 192, 0.10);
+                      opacity: .7;
                     }
                   }
 
@@ -4860,26 +4879,55 @@ a {
                 }
 
                 .line-txt {
-                  .btn-mobile {
+                  .line-date {
                     width: 100%;
-                    font-family: "Golos Text";
-                    font-style: normal;
-                    font-weight: 600;
+                    color: var(--green-default, #17A851);
+                    text-align: left;
                     font-size: 14px;
+                    font-family: "Golos Text";
                     line-height: 20px;
-                    color: #ffffff;
-                    background: #0070c0;
-                    border-radius: 4px;
-                    width: 100%;
-                    height: 32px;
+                    margin-bottom: 10px;
+                  }
+                  .btn-mobile {
                     display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    &.active {
-                      color: #0070c0;
-                      border: 2px solid #0070c0;
-                      background: transparent;
+                    flex-direction: column;
+                    gap: 10px;
+                    a {
+                      width: 100%;
+                      font-family: "Golos Text";
+                      font-style: normal;
+                      font-weight: 600;
+                      font-size: 14px;
+                      min-width: 145px;
+                      line-height: 20px;
+                      color: #ffffff;
+                      background: #0070c0;
+                      border-radius: 4px;
+                      width: 100%;
+                      height: 32px;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+  
+                      &:hover {
+                        background: #0052a2;
+                        opacity: 1;
+                      }
+                    }
+  
+                    .done-btn {
+                      border-radius: 4px;
+                      background: rgba(0, 112, 192, 0.10);
+                      color: var(--blue-dark, #0070C0);
+                      font-size: 14px;
+                      font-family: "Golos Text";
+                      font-weight: 600;
+                      line-height: 20px;
+  
+                      &:hover {
+                        background: rgba(0, 112, 192, 0.10);
+                        opacity: .7;
+                      }
                     }
                   }
 
@@ -5149,6 +5197,7 @@ a {
     }
   }
 }
+
 #modal-4 {
   max-width: 590px;
 
@@ -5198,4 +5247,5 @@ a {
     }
   }
 }
+
 @import "adaptive";
