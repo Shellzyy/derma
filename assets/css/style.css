@@ -5689,6 +5689,9 @@ a:hover {
   font-family: "Golos Text";
   font-weight: 700;
   line-height: 30px;
+  border-bottom: 1px solid #E1E1E1;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 #modal-4 .md-content p {
   color: var(--black-default,#071027);
@@ -5710,6 +5713,69 @@ a:hover {
   margin-left: auto;
   margin-right: 0;
   display: flex;
+}
+#modal-5 {
+  max-width: 590px;
+}
+#modal-5 .md-content {
+  border-radius: 12px;
+  background: #FFF;
+  box-shadow: 0px 12px 24px 0px rgba(0,0,0,0.05);
+  padding: 40px 40px 30px 40px;
+}
+#modal-5 .md-content .md-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+#modal-5 .md-content h4 {
+  color: var(--black-default,#071027);
+  font-size: 25px;
+  font-family: "Golos Text";
+  font-weight: 700;
+  line-height: 30px;
+  border-bottom: 1px solid #E1E1E1;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+#modal-5 .md-content p {
+  color: var(--black-default,#071027);
+  font-size: 14px;
+  font-family: "Golos Text";
+  line-height: 20px;
+  margin: 10px 0 30px;
+}
+#modal-5 .md-content label {
+  color: var(--black-50,rgba(0,0,0,0.5));
+  font-size: 12px;
+  font-family: "Golos Text";
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+}
+#modal-5 .md-content label textarea {
+  border-radius: 4px;
+  border: 1px solid #E1E1E1;
+  background: #FFF;
+  padding: 15px;
+  line-height: 130%;
+  margin-top: 10px;
+  max-height: 98px;
+}
+#modal-5 .md-content .btn-form button {
+  color: #FFF;
+  font-size: 14px;
+  font-family: "Golos Text";
+  font-weight: 600;
+  line-height: 24px;
+  border-radius: 5px;
+  padding: 8px 24px;
+  margin-left: 0;
+  margin-right: auto;
+  display: flex;
+  background: var(--blue-dark,#0070C0);
+  margin-top: 30px;
 }
 @media (max-width: 1440px) {
   #modal-2 .md-content form .labels {
@@ -7284,6 +7350,16 @@ a:hover {
   }
 }
 @media (min-width: 320px) and (max-width: 575px) {
+  #modal-5 .md-content {
+    padding: 20px;
+  }
+  #modal-5 .md-content label textarea {
+    max-height: 75px;
+  }
+  #modal-5 .md-content p {
+    font-size: 13px;
+    line-height: 16px;
+  }
   .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .btn {
     display: none;
   }
