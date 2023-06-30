@@ -5238,7 +5238,7 @@ a:hover {
   pointer-events: none;
 }
 .sec28 .container .main-content .courses .accordeon .accordeon__line .stats {
-  width: 100%;
+  width: 30%;
   display: flex;
   pointer-events: none;
 }
@@ -5298,7 +5298,7 @@ a:hover {
   flex-direction: column;
 }
 .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line {
-  height: 60px;
+  height: 104px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -5311,10 +5311,11 @@ a:hover {
   cursor: pointer;
 }
 .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats {
-  width: 50%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  gap: 0 20px;
 }
 .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .line-date {
   width: 40%;
@@ -5327,7 +5328,10 @@ a:hover {
 .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .btn {
   display: flex;
   width: 32%;
-  justify-content: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
 }
 .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .btn a {
   width: 100%;
@@ -5335,11 +5339,11 @@ a:hover {
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
+  min-width: 145px;
   line-height: 20px;
   color: #ffffff;
   background: #0070c0;
   border-radius: 4px;
-  max-width: 94px;
   height: 32px;
   display: flex;
   justify-content: center;
@@ -5348,6 +5352,19 @@ a:hover {
 .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .btn a:hover {
   background: #0052a2;
   opacity: 1;
+}
+.sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .btn .done-btn {
+  border-radius: 4px;
+  background: rgba(0,112,192,0.1);
+  color: var(--blue-dark,#0070C0);
+  font-size: 14px;
+  font-family: "Golos Text";
+  font-weight: 600;
+  line-height: 20px;
+}
+.sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .btn .done-btn:hover {
+  background: rgba(0,112,192,0.1);
+  opacity: .7;
 }
 .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .btn.active a {
   color: #0070c0;
@@ -5389,12 +5406,27 @@ a:hover {
   margin-right: 10px;
   min-width: 40px;
 }
+.sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title .line-txt .line-date {
+  width: 100%;
+  color: var(--green-default,#17A851);
+  text-align: left;
+  font-size: 14px;
+  font-family: "Golos Text";
+  line-height: 20px;
+  margin-bottom: 10px;
+}
 .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title .line-txt .btn-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title .line-txt .btn-mobile a {
   width: 100%;
   font-family: "Golos Text";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
+  min-width: 145px;
   line-height: 20px;
   color: #ffffff;
   background: #0070c0;
@@ -5404,10 +5436,22 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-.sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title .line-txt .btn-mobile.active {
-  color: #0070c0;
-  border: 2px solid #0070c0;
-  background: transparent;
+.sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title .line-txt .btn-mobile a:hover {
+  background: #0052a2;
+  opacity: 1;
+}
+.sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title .line-txt .btn-mobile .done-btn {
+  border-radius: 4px;
+  background: rgba(0,112,192,0.1);
+  color: var(--blue-dark,#0070C0);
+  font-size: 14px;
+  font-family: "Golos Text";
+  font-weight: 600;
+  line-height: 20px;
+}
+.sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title .line-txt .btn-mobile .done-btn:hover {
+  background: rgba(0,112,192,0.1);
+  opacity: .7;
 }
 .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title .line-txt .balls-mobile {
   width: 50%;
@@ -5679,6 +5723,9 @@ a:hover {
   }
 }
 @media (min-width: 768px) {
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title .line-txt .line-date {
+    display: none;
+  }
   .stats .module,
   .balls-mobile,
   .btn-mobile {
@@ -6001,6 +6048,24 @@ a:hover {
   }
 }
 @media (min-width: 768px) and (max-width: 939px) {
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .line-date {
+    text-align: left;
+    width: 47%;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__line .stats {
+    width: 35%;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title .line-txt span {
+    color: var(--black-default,#071027);
+    font-size: 14px;
+    font-family: "Golos Text";
+    line-height: 20px;
+    margin: 0 0 10px;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .balls {
+    justify-content: flex-start;
+    display: flex;
+  }
   .sec17 .container .items a .location {
     gap: 15px;
   }
@@ -6356,6 +6421,58 @@ a:hover {
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title .line-txt {
+    width: 100%;
+    max-width: 500px;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .btn {
+    display: none;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line {
+    height: unset;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .balls {
+    display: none !important;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title {
+    width: 100%;
+    padding: 30px 0 20px;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats {
+    width: unset;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title .line-txt span {
+    color: var(--black-default,#071027);
+    font-size: 14px;
+    font-family: "Golos Text";
+    line-height: 20px;
+    margin: 0 0 10px;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__line .module {
+    display: none;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__line {
+    padding: 15px;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__line .stats .module {
+    display: block;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title {
+    align-items: flex-start;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .line-date {
+    display: none;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__line:before {
+    left: unset;
+    right: 15px;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__line .stats .balls {
+    width: unset;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__line .stats {
+    width: 100%;
+  }
   .sec18 {
     padding-top: 20px;
     padding-bottom: 80px;
@@ -7167,6 +7284,54 @@ a:hover {
   }
 }
 @media (min-width: 320px) and (max-width: 575px) {
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .btn {
+    display: none;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line {
+    height: unset;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .balls {
+    display: none !important;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title {
+    width: 100%;
+    padding: 30px 0 20px;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats {
+    width: unset;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title .line-txt span {
+    color: var(--black-default,#071027);
+    font-size: 14px;
+    font-family: "Golos Text";
+    line-height: 20px;
+    margin: 0 0 10px;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__line .module {
+    display: none;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__line {
+    padding: 15px;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__line .stats .module {
+    display: block;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .line-title {
+    align-items: flex-start;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__content .content-line .stats .line-date {
+    display: none;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__line:before {
+    left: unset;
+    right: 15px;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__line .stats .balls {
+    width: unset;
+  }
+  .sec28 .container .main-content .courses .accordeon .accordeon__line .stats {
+    width: 100%;
+  }
   .sec22 .container form .step .content,
   .sec21 .container form .step .content,
   .sec20 .container form .step .content,
